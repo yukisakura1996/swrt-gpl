@@ -38,7 +38,7 @@ jobs:
             git clone --depth=1 https://github.com/SWRT-dev/swrt-gpl mt7621
             cd mt7621/release/src-mtk-mips
             sudo /home/docker/envs/toolchain.sh
-            make rt-ac85p
+            make rm-2100
   testqca:
     docker:
       - image: paldier/swrt-docker:latest
